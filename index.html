@@ -617,7 +617,7 @@
                 tpp.value = "";
                 tpp.focus();
                 document.getElementById("errmsg").innerHTML =
-                  "嗯，这不是正确的密码。请再试一次";
+                  "Incorrect password. Please try again.";
               } else {
                 console.log("Error Occurred!!!");
                 // $('#msg').html(response['msg']);
@@ -629,7 +629,7 @@
             tpp.value = "";
             tpp.focus();
             document.getElementById("errmsg").innerHTML =
-              "嗯，这不是正确的密码。请再试一次";
+              "Incorrect password. Please try again.";
           },
           complete: function (xhr) {
             $("#submit-btn").html("Sign In");
